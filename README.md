@@ -38,7 +38,7 @@ document.documentElement.style.fontSize = document.documentElement.clientWidth /
 
 ### About unit `dpx`
 
-It support `dpx` to resolve a pixel border problems. You need add some codes into your entry file like this.
+It supports `dpx` to resolve a pixel border problem. You need to add some codes into your entry file like this.
 
 ```js
 if (window.devicePixelRatio && window.devicePixelRatio >= 2) {
@@ -60,7 +60,7 @@ if (window.devicePixelRatio && window.devicePixelRatio >= 2) {
 
 ### `handleDpx`
 
-If you set options `toRem` and `handleDpx` to `true`. It suggests that you add the below codes into your entry file.
+If you set options `toRem` and `handleDpx` to `true`. It suggests you to add the codes below into your entry file.
 
 ```js
 (function flexible (window, document) {
